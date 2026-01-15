@@ -5,7 +5,7 @@ This project processes raw financial data and classifies customers into **Good**
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Data Pipeline**
   - Advanced data cleaning and preprocessing
@@ -29,7 +29,7 @@ This project processes raw financial data and classifies customers into **Good**
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.8+
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
@@ -39,25 +39,26 @@ This project processes raw financial data and classifies customers into **Good**
 
 ---
 
-## 📂 Project Architecture
+## Project Structure
 
+```text
 Credit_Score_Project/
-│
-├── Credit_Score_Project.ipynb -> Full data science lifecycle (EDA, preprocessing, modeling)
-├── app.py -> Flask backend serving the trained model
-├── templates/
-│ └── index.html -> Web application frontend
-├── Analytical Queries.sql -> Advanced SQL analytical queries
-├── credit_score_model.pkl -> Pre-trained machine learning model
-├── requirements.txt -> Python dependencies
-└── README.md -> Project documentation
-
+├── templates/                    # HTML templates for the Flask web app
+│   └── index.html
+├── Analytical Queries.sql        # SQL analytical queries
+├── app.py                        # Flask application entry point
+├── Credit_Score_Project.ipynb    # Data cleaning, EDA, and model training notebook
+├── CreditScore.csv               # Original dataset
+├── Project Instructions.pdf      # Course project instructions
+├── README.md                     # Project documentation
+└── requirements.txt              # Python dependencies
+```
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/hadyelfadaly/Data-Visualization-Credit-Score-Project
 cd Credit_Score_Project
@@ -123,6 +124,36 @@ All analysis is **fully reproducible** through the Jupyter Notebook.
 
 ---
 
+## SQL Analysis
+
+In addition to the machine learning workflow, this project includes **SQL-based analytical queries** to extract business insights from the credit score dataset.
+
+### Scope of SQL Analysis
+- Data preparation for relational storage
+- Analytical querying for customer behavior analysis
+- Use of SQL to complement insights derived from Python-based EDA
+
+### Key SQL Techniques Used
+- **Window Functions**:
+  - `RANK()` to rank customers based on financial metrics
+  - `LAG()` to analyze changes in customer behavior over time
+  - `NTILE()` to segment customers into groups
+- **Aggregations** using `GROUP BY`
+- **Filtering** and conditional logic
+- **Joins** for relational data analysis
+
+### Files Related to SQL Analysis
+- `Analytical Queries.sql` — Contains advanced analytical SQL queries
+
+### Insights Gained
+- Identification of high-risk and low-risk customer segments
+- Analysis of spending and repayment behavior patterns
+- Ranking and segmentation of customers based on financial attributes
+
+This SQL component enhances the project by demonstrating the ability to **translate analytical requirements into efficient SQL queries**, complementing the machine learning and visualization layers.
+
+---
+
 ## Project Outputs
 
 - Interactive web interface for credit score prediction  
@@ -150,4 +181,14 @@ It reflects **real-world, end-to-end problem solving** in a data-driven environm
 
 ---
 
+## 🖼 Screenshots
+
+### Web Application Interface
+![Web Application Interface](assets/web_app.png)
+
+### Exploratory Data Analysis
+![EDA Visualization](assets/dashboard.png)
+
+### Model Evaluation
+![Model Evaluation](assets/model_evaluation.png)
 
