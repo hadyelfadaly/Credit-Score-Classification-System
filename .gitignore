@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+credit_score_model.pkl
+scaler.pkl
+CreditScoreForSQL.csv
+preprocessed_dataset.csv
+DataSet Insertion.sql
