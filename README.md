@@ -181,14 +181,14 @@ It reflects **real-world, end-to-end problem solving** in a data-driven environm
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 ### Web Application Interface
-![Web Application Interface](assets/web_app.png)
+![Web Application Interface](./assets/web_app.png)
 
 ### Exploratory Data Analysis
-![EDA Visualization](assets/dashboard.png)
+![EDA Visualization](./assets/dashboard.png)
 
 ### Model Evaluation
-![Model Evaluation](assets/model_evaluation.png)
+![Model Evaluation](./assets/model_evaluation.png)
 
