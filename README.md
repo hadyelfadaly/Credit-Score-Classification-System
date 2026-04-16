@@ -1,5 +1,14 @@
 # Credit Score Classification System
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-000000?style=flat-square&logo=plotly&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
 An **end-to-end Machine Learning solution** designed to automate credit risk assessment.  
 This project processes raw financial data and classifies customers into **Good**, **Standard**, or **Poor** credit tiers, deployed through a **production-ready Flask web application**.
 
@@ -187,7 +196,6 @@ It reflects **real-world, end-to-end problem solving** in a data-driven environm
 - Hozayfa Ashraf - [Github Profile](https://github.com/HozayfaAshraf)
 - Omar Waleed El Sobky - [Github Profile](https://github.com/Omarsobky)
 - Yassin Mohy Eldin - [Github Profile](https://github.com/Yassin-Mohy)
-
 ---
 
 ## Screenshots
