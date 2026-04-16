@@ -58,7 +58,6 @@ Credit_Score_Project/
 ├── app.py                        # Flask application entry point
 ├── Credit_Score_Project.ipynb    # Data cleaning, EDA, and model training notebook
 ├── CreditScore.csv               # Original dataset
-├── Project Instructions.pdf      # Course project instructions
 ├── README.md                     # Project documentation
 └── requirements.txt              # Python dependencies
 ```
