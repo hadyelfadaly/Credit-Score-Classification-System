@@ -181,6 +181,15 @@ It reflects **real-world, end-to-end problem solving** in a data-driven environm
 
 ---
 
+## Team Members
+
+- Hady El Fadaly - [Github Profile](https://github.com/hadyelfadaly)
+- Hozayfa Ashraf - [Github Profile](https://github.com/HozayfaAshraf)
+- Omar Waleed El Sobky - [Github Profile](https://github.com/Omarsobky)
+- Yassin Mohy Eldin - [Github Profile](https://github.com/Yassin-Mohy)
+
+---
+
 ## Screenshots
 
 ### Web Application Interface
